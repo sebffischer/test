@@ -1,0 +1,9 @@
+name: Super-Linter
+
+on:
+  push:
+    branches: main
+    paths: '**/aaa**'
+    
+    
+  
