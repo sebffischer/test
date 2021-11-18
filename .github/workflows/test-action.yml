@@ -3,7 +3,7 @@ name: Super-Linter
 on:
   push:
     branches: main
-    paths: '**/aaa**'
+    paths: '**aaa**'
     
     
 jobs: 
