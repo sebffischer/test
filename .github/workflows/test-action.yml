@@ -3,7 +3,7 @@ name: Super-Linter
 on:
   push:
     branches: main
-    paths: '**/catboost.txt**'
+    paths: '**\/catboost*.R'
     
     
 jobs: 
