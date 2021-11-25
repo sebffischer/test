@@ -1,9 +1,12 @@
+
 name: Super-Linter
 
 on:
   push:
     branches: main
     paths: '**\/*catboost*.R'
+  workflow_dispatch:   
+
     
     
 jobs: 
