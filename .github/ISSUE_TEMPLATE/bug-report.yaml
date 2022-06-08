@@ -8,7 +8,7 @@ body:
       1. Make sure you are using the latest release and
          take a moment to check that your issue hasn't been reported before.
       2. Please give all relevant information below for bug reports.
-      3. If possible, please tasks that come with mlr3 and not your personal data.
+      3. If possible, please use tasks that come with mlr3 and not your personal data.
       4. The `mlr3verse` consists of many different packages. Please try to raise the issue in the
          correct repository so the person who is responsible will see it as soon as possible.
 - type: textarea
