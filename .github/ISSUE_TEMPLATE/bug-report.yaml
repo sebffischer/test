@@ -15,11 +15,4 @@ body:
     label: Description
     description: |
       Please provide a description of your issue here.
-- type: textarea
-  id: code
-  attributes:
-    label: Reproducible example
-    description: Provide a reproducible example, i.e. code that allows it to reproduce your problem on a different machine in a clean environment. 
-    You can use the [reprex](https://github.com/tidyverse/reprex) package to do so.   
-  validations:
-    required: true
+
