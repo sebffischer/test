@@ -23,7 +23,7 @@ body:
     label: Minimal reproducible example
     description: |
       Provide a **minimal** reproducible example, i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. 
-      You can use the [reprex](https://github.com/tidyverse/reprex) package to do so. Try to 
+      You can use the [reprex](https://github.com/tidyverse/reprex) package to do so. 
 - type: textarea
   id: sessioninfo
   attributes:
