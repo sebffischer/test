@@ -23,8 +23,8 @@ body:
       Provide a reproducible example, i.e. code that allows it to reproduce your problem on a different machine in a clean environment. 
       You can use the [reprex](https://github.com/tidyverse/reprex) package to do so.   
 - type: textarea
-id: sessioninfo
-attributes:
-  label: Session info
-  description: |
-    Provide the output of `sessionInfo()` here 
+  id: sessioninfo
+  attributes:
+    label: Session info
+    description: |
+      Provide the output of `sessionInfo()` here 
