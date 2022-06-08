@@ -20,10 +20,10 @@ body:
 - type: textarea
   id: code
   attributes:
-    label: Reproducible example
+    label: Minimal reproducible example
     description: |
-      Provide a reproducible example, i.e. code that allows it to reproduce your problem in a clean environment. 
-      You can use the [reprex](https://github.com/tidyverse/reprex) package to do so.   
+      Provide a **minimal** reproducible example, i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. 
+      You can use the [reprex](https://github.com/tidyverse/reprex) package to do so. Try to 
 - type: textarea
   id: sessioninfo
   attributes:
