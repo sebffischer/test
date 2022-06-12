@@ -5,12 +5,12 @@ body:
 - type: markdown
   attributes:
     value: |
-      1. Make sure you are using the latest release and
-         take a moment to check that your issue hasn't been reported before.
-      2. Please give all relevant information below for bug reports.
-      3. If possible, please use tasks that come with mlr3 and not your personal data.
-      4. The `mlr3verse` consists of many different packages. Please try to raise the issue in the
-         correct repository so the person who is responsible will see it as soon as possible.
+      1. Run `update.packages()` and take a moment to check that your issue hasn't been
+      reported before.
+      2. Use one of our predefined [tasks](https://mlr-org.com/tasks.html) via
+      `task = tsk(<id>)`
+      3. Please think again if your issue is really related to mlr3 itself or one of the
+      mlr3verse packages (e.g. mlr3tuning, mlr3learners, etc)
 - type: textarea
   id: description
   attributes:
@@ -22,11 +22,6 @@ body:
   attributes:
     label: Minimal reproducible example
     description: |
-      Provide a **minimal** reproducible example, i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. 
-      You can use the [reprex](https://github.com/tidyverse/reprex) package to do so. 
-- type: textarea
-  id: sessioninfo
-  attributes:
-    label: Session info
-    description: |
-      Provide the output of `sessionInfo()` here.
+      Provide a **minimal** reproducible example, i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment.
+      You can use the [reprex](https://github.com/tidyverse/reprex) package to do so.
+      Please include the session info using `reprex::reprex(..., session_info = TRUE)`
