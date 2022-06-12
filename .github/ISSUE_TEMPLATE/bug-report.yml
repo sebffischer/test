@@ -3,9 +3,7 @@ description: Found something you weren't expecting? Report it here!
 labels: kind/bug
 body:
 - type: markdown
-  id: instruction
   attributes:
-    label: Instructions
     value: |
       1. Run `update.packages()` and take a moment to check that your issue hasn't been
       reported before.
