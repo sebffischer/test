@@ -1,8 +1,9 @@
 blank_issues_enabled: false
 contact_links:
-  - name: GitHub Community Support
-    url: https://github.community/
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: mlr3 Book
+    url: https://mlr3book.mlr-org.com/
+    about: Book about the mlr3 ecosystem
+
+  - name: Creating a reprex
+    url: https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html
+    about: Tutorial for providing reproducible examples
