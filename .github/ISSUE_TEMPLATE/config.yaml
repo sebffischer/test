@@ -1,3 +1,5 @@
+blank_issues_enabled: true
+
 contact_links:
   - name: mlr-org website
     url: https://mlr-org.com/
