@@ -5,8 +5,8 @@ body:
 - type: markdown
   attributes:
     value: |
-      * Before submitting a bug, please run `update.packages()` and see if the bug still exists.
-      * Please check whether your problem has already been mentioned on GitHub or Stack Overflow
+      * Before submitting an issue, please run `update.packages()` and see if the bug still persists.
+      * Please check whether your problem has already been mentioned on GitHub or Stack Overflow.
       * Please think again if your issue is really related to mlr3 itself or one of the other packages (e.g. mlr3tuning, mlr3learners, etc.).
       * When reporting a bug, please use one of our predefined [tasks](https://mlr-org.com/tasks.html) via `task = tsk(<id>)`.
       * In case your isse is rather a topic for discussion, you can also start a GitHub discussion.
@@ -22,8 +22,8 @@ body:
   attributes:
     label: Minimal reproducible example
     description: |
-      Provide a [reproducible example](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a fresh environment.
+      Provide a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a fresh environment.
       To create a reproducible example, do the following:
           1. Copy the code that includes the problem you want to report.
           2. Run `reprex::reprex(session_info = TRUE, style = TRUE).
-          3. A browser tab opens that shows the output of running the code that you copied in a clean R session. If it is not what you were expecting, the code you copied is not reproducible. If it is what you want, paste the content of your clipboard into the area below. You can read more about reprex [here](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html).
+          3. A browser tab opens that shows the output of running the code that you copied in a clean R session. If it is not what you were expecting, the code you copied is not self-contained. If it is what you want, paste the content of your clipboard into the area below. You can read more about reprex [here](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html).
