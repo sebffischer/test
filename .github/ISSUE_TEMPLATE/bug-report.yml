@@ -25,5 +25,5 @@ body:
       Provide a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a fresh environment.
       To create a reproducible example, do the following:
           1. Copy the code that includes the problem you want to report.
-          2. Run `reprex::reprex(session_info = TRUE, style = TRUE).
+          2. Run `reprex::reprex(session_info = TRUE, style = TRUE)`.
           3. A browser tab opens that shows the output of running the code that you copied in a clean R session. If it is not what you were expecting, the code you copied is not self-contained. If it is what you want, paste the content of your clipboard into the area below. You can read more about reprex [here](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html).
