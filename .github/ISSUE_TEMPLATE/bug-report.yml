@@ -22,6 +22,4 @@ body:
   attributes:
     label: Minimal reproducible example
     description: |
-      Provide a [MWE](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. This includes the `sessionInfo()`. We recommend using the
-      [reprex](https://github.com/tidyverse/reprex) package to do so using
-      `reprex::reprex(..., session_info = TRUE)`.
+      Provide a [MWE](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. This includes the `sessionInfo()`. We recommend using the [reprex](https://github.com/tidyverse/reprex) package to do so using `reprex::reprex(..., session_info = TRUE)`.
