@@ -1,0 +1,12 @@
+contact_links:
+  - name: mlr-org website
+    url: https://mlr-org.com/
+    about: The central website for the mlr-org
+
+  - name: mlr3 book
+    url: https://mlr3book.mlr-org.com/
+    about: A
+
+  - name: Mattermost
+    url: https://lmmisld-lmu-stats-slds.srv.mwn.de/mlr_invite/
+    about: Getting further help
