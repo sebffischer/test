@@ -5,8 +5,9 @@ body:
 - type: markdown
   attributes:
     value: |
-      1. Run `update.packages()` and take a moment to check that your issue hasn't been
-      reported before.
+      Thanks for taking the time to fill out this bug report!
+
+      1. Run `update.packages()` and take a moment to check that your issue hasn't been reported before.
       2. Use one of our predefined [tasks](https://mlr-org.com/tasks.html) via `task = tsk(<id>)`
       3. Please think again if your issue is really related to mlr3 itself or one of the
       mlr3verse packages (e.g. mlr3tuning, mlr3learners, etc)
@@ -21,4 +22,4 @@ body:
   attributes:
     label: Minimal reproducible example
     description: |
-      Provide a [MWE](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. This includes the `sessionInfo()`. We recommend using the [reprex](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html) package to do, so using `reprex::reprex(..., session_info = TRUE)`.
+      Provide a [MWE](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment. Please also include the `sessionInfo()`. We recommend using the [reprex](https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html) package to do, so using `reprex::reprex(..., session_info = TRUE)`.
