@@ -3,12 +3,13 @@ description: Found something you weren't expecting? Report it here!
 labels: kind/bug
 body:
 - type: markdown
+  id: instruction
   attributes:
+    label: Instructions
     value: |
       1. Run `update.packages()` and take a moment to check that your issue hasn't been
       reported before.
-      2. Use one of our predefined [tasks](https://mlr-org.com/tasks.html) via
-      `task = tsk(<id>)`
+      2. Use one of our predefined [tasks](https://mlr-org.com/tasks.html) via `task = tsk(<id>)`
       3. Please think again if your issue is really related to mlr3 itself or one of the
       mlr3verse packages (e.g. mlr3tuning, mlr3learners, etc)
 - type: textarea
