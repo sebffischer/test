@@ -21,7 +21,7 @@ body:
   attributes:
     label: Minimal reproducible example
     description: |
-      Provide a [MWE](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment.
+      Provide a [reproducible example](https://stackoverflow.com/help/minimal-reproducible-example), i.e. a simplified version of your problem that allows to reproduce your problem in a clean environment.
       To create a reproducible example, do the following:
           1. Copy the code that includes the problem you want to report.
           2. Run `reprex::reprex(session_info = TRUE, style = TRUE).
