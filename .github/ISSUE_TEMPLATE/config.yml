@@ -7,7 +7,3 @@ contact_links:
   - name: mlr website
     url: https://mlr-org.com
     about: The central website of mlr-org
-
-  - name: Reproducible examples using reprex
-    url: https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html
-    about: Tutorial for creating reproducible examples
