@@ -7,13 +7,13 @@ body:
     value: |
       * Before submitting a bug, please run `update.packages()` and see if the bug still exists.
       * Please check whether your problem has already been mentioned on GitHub or Stack Overflow
-      * Please think again if your issue is really related to mlr3 itself or one of the mlr3verse packages (e.g. mlr3tuning, mlr3learners, ...).
+      * Please think again if your issue is really related to mlr3 itself or one of the other packages (e.g. mlr3tuning, mlr3learners, etc.).
       * When reporting a bug, please use one of our predefined [tasks](https://mlr-org.com/tasks.html) via `task = tsk(<id>)`.
       * To create a reproducible example, do the following:
           1. Copy the code that includes the problem you want to report.
           2. Run `reprex::reprex(session_info = TRUE, style = TRUE)`.
-          3. The code is now on your clipboard and you can paste it into this issue form. If
-          it differs from what you were expecting, your example is likely not reproducible.
+          3. A browser tab opens that shows the output of the code. If it is not what you were expecting, your example is not reproducible (e.g. you rely on your local file system).
+          If it is what you want, paste the content of your clipboard into this issue form.
 
 
 
