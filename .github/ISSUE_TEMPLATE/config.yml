@@ -1,9 +1,13 @@
 blank_issues_enabled: false
 contact_links:
-  - name: mlr3 Book
+  - name: mlr3 book
     url: https://mlr3book.mlr-org.com/
     about: Book about the mlr3 ecosystem
 
-  - name: Creating a reprex
+  - name: mlr website
+    url: https://mlr-org.com
+    about: The central website of mlr-org
+
+  - name: Reproducible examples using reprex
     url: https://reprex.tidyverse.org/articles/reprex-dos-and-donts.html
-    about: Tutorial for providing reproducible examples
+    about: Tutorial for creating reproducible examples
